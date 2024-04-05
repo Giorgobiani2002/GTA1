@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0b0b0b;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+.header-container {
+  background-color: black;
+  height: 11.2rem;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-div {
+  width: 116rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar nav {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-left: 4.7rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar nav ul {
+  display: flex;
+}
+.navbar li {
+  margin-right: 4.7rem;
+  list-style-type: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-2 {
+  display: flex;
+  align-items: center;
+}
+.navbar-2 img {
+  margin-right: 2.4rem;
+}
+.btn1 {
+  width: 19.3rem;
+  height: 5.2rem;
+  background-color: rgba(252, 175, 23, 1);
+  border: none;
+  border-radius: 1.2rem;
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+}
+.first-section img {
+  max-width: 144rem;
+  height: 79.6rem;
+}
+.second-section {
+  width: 116rem;
+  height: 55.4rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lists h2 {
+  color: rgba(246, 246, 246, 1);
+  font-weight: 800;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+}
+.lists div {
+  display: flex;
+}
+.btn3 {
+  width: 7rem;
+  height: 3.2rem;
+  border-radius: 10rem;
+  background-color: rgba(96, 96, 96, 1);
+  border: none;
+  margin-right: 1.6rem;
+}
+.btn4 {
+  width: 10.6rem;
+  height: 3.2rem;
+  border-radius: 10rem;
+  background-color: rgba(96, 96, 96, 1);
+  border: none;
+  margin-right: 1.6rem;
+}
+.btn5 {
+  width: 19.6rem;
+  height: 3.2rem;
+  border-radius: 10rem;
+  background-color: rgba(96, 96, 96, 1);
+  border: none;
+}
+.game-lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem 0;
+  margin-top: 4rem;
+}
+.btn2 {
+  width: 26rem;
+  height: 6rem;
+  background-color: rgba(252, 175, 23, 1);
+  border: none;
+  border-radius: 1.2rem;
+  margin-right: 4rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+.third-section {
+  width: 116rem;
+  height: 63rem;
+  margin: 0 auto;
+  margin-top: 11rem;
+}
+.third-section h2 {
+  color: rgba(246, 246, 246, 1);
+  font-weight: 800;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+}
+.third-section h3 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  color: white;
+}
+.third-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.third-lists span {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(121, 121, 121, 1);
+  border: 1px dashed rgba(151, 71, 255, 1);
+  padding-top: 1.5rem;
+  padding-bottom: 6rem;
+  margin-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 0.5rem;
+}
+.third-img {
+  width: 86rem;
+  height: 48.8rem;
+  border-top-right-radius: 1.6rem;
+
+  border-top-left-radius: 1.6rem;
+}
+.third-lists {
+  background-color: rgba(2, 2, 2, 1);
+  border-radius: 1.6rem;
+  height: 58.8rem;
+}
+.third-lists div {
+  margin-left: 3rem;
+}
+.third-lists1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 48.8rem;
+}
+.third-lists2 {
+  width: 26rem;
+  height: 22.4rem;
+  border-radius: 1.6rem;
+  background-color: black;
+}
+.third-lists2 h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: rgba(255, 255, 255, 1);
+  width: 22rem;
+  margin-left: 1.2rem;
+  margin-top: 0.8rem;
+}
+.third-lists2 span {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: rgba(121, 121, 121, 1);
+  margin-left: 1.2rem;
+}
+.third-lists2 img {
+  width: 26rem;
+  border-top-right-radius: 1.6rem;
+
+  border-top-left-radius: 1.6rem;
+}
+.fourth-section {
+  width: 116rem;
+  height: 53.5rem;
+  margin: 0 auto;
+  margin-top: 17rem;
+  background-image: url(./img/9e013dfc261f02ef7bd138b60f89d010.png);
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-div div {
+  display: flex;
+  align-items: center;
+  margin-top: 7.7rem;
+  margin-left: 7.6rem;
+}
+.fourth-div div h3 {
+  font-weight: 800;
+  font-size: 4.1rem;
+  line-height: 4.9rem;
+  width: 18rem;
+  margin-left: 1.8rem;
+}
+.fourth-div h4 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  margin-top: 3.2rem;
+  margin-left: 7.6rem;
+  width: 33rem;
+}
+.btn6 {
+  width: 26rem;
+  height: 6rem;
+  background-color: rgba(252, 175, 23, 1);
+  border: none;
+  border-radius: 1.2rem;
+  margin-right: 4rem;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-left: 7.6rem;
+  margin-top: 6.4rem;
+  color: rgba(2, 2, 2, 1);
+}
+.launcher {
+  width: 66rem;
+  height: 47rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer {
+  height: 23.8rem;
+  margin-top: 9.5rem;
+  background-color: rgba(2, 2, 2, 1);
+  display: flex;
+  align-items: center;
+}
+.footer-div {
+  width: 116rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-div div {
+  display: flex;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+footer a {
+  margin-right: 2.4rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgba(177, 177, 177, 1);
+}
+.footer-div nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 4rem;
+}
+.footer-div nav span {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: rgba(177, 177, 177, 1);
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+header:hover {
+  color: #f6f6f6;
+  -moz-box-shadow: 0px 2px 9px #888;
+  -webkit-box-shadow: 0px 2px 9px #888;
+  box-shadow: 0px 2px 9px #888;
+  max-height: 420px;
+  -webkit-transition: all 3.2s ease;
+  -moz-transition: all 3.2s ease;
+  -o-transition: all 3.2s ease;
+  -ms-transition: all 3.2s ease;
+  transition: all 3.2s ease;
+  background-color: #a23636a2;
+}
+.game-lists img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.third-lists2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
